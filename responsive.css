@@ -1,0 +1,66 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    .home h1 {
+      font-size: 40px;
+    }
+    .cities {
+      flex-wrap: wrap;
+    }
+    .cities li {
+      width: 50%;
+    } 
+  }
+  
+  /* Untuk Smartphone */
+  @media all and (max-width: 670px) {
+    .header-right {
+      display: none;
+    } 
+
+    .menu-icon {
+      display: block;
+    }
+    
+    .home h1 {
+      font-size: 30px;
+      text-align: center;   
+    }
+
+    .btn {
+      width: 100%;
+    }
+
+    .foto-about {
+      width: 100%;
+    }
+
+    .ket-about {
+      width: 100%; 
+    }
+
+    .cities {
+      flex-direction: column;
+    }
+
+    .cities li {
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    footer {
+      text-align: center;
+    }  
+
+    .footer-logo {
+      width: 100%;
+    }
+    .footer-left {
+      width: 100%;
+    }
+    .footer-left a {
+      width: 50%;
+    }
+    .footer-right {
+      width: 100%;
+    }
+  }
